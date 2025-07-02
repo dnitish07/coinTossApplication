@@ -47,7 +47,7 @@
 }
 
 .button {
-  background-color: blue;
+  background-image: linear-gradient(to right, #5b3df1, #f15779);
   height: 35px;
   color: white;
   border:none;
