@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+  min-height: 100vh;
+  background-image: linear-gradient(to right, yellow, white, orange);
+}
+
+.middle-section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+  height: auto;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.main-heading {
+  font-size: 30px;
+  font-family: "Roboto";
+  color: green;
+  margin-bottom: 10px;
+}
+
+.paragraph-section {
+  font-size: 10px;
+  font-family: "Roboto";
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.image-section {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  transition: transform 0.6s ease;
+  transform-style: preserve-3d;
+
+}
+
+.button {
+  background-color: blue;
+  height: 35px;
+  color: white;
+  border:none;
+  border-radius: 10px;
+  width: 100%
+}
