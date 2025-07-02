@@ -47,10 +47,14 @@
 }
 
 .button {
-  background-image: linear-gradient(to right, #5b3df1, #f15779);
+  background: linear-gradient(to right, #5b3df1, #f15779);
   height: 35px;
   color: white;
   border:none;
   border-radius: 10px;
   width: 100%
+}
+.button:hover {
+  background: linear-gradient(to right, #5b3df1, #5b3df1);
+  cursor: pointer;
 }
