@@ -6,7 +6,7 @@
 .container {
   position: relative;
   min-height: 100vh;
-  background-image: linear-gradient(to right, yellow, white, orange);
+  background-image: linear-gradient(to right bottom, #fff6a9, #ff9770);
 }
 
 .middle-section {
