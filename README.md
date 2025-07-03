@@ -35,18 +35,6 @@ This project demonstrates how to build a mini coin toss simulator using web tech
 
 ---
 
-## Tech Stack
-
-| Layer       | Technology     |
-|-------------|----------------|
-| Structure   | HTML5          |
-| Styling     | CSS3           |
-| Interactivity | JavaScript   |
-| Fonts       | Google Fonts   |
-| Icons       | N/A            |
-
----
-
 ## Folder Structure
 
 ```
@@ -55,8 +43,6 @@ coin-toss-app/
 ├── index.html # Main structure
 ├── style.css # Styling: layout, animation, button
 ├── script.js # Coin toss logic and DOM manipulation
-├── preview.png # Optional: UI screenshot
-└── README.md # Project documentation
 ```
 ---
 
