@@ -1,6 +1,8 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Arial" !important;
+  font-weight: bold !important;
 }
 
 .container {
@@ -18,7 +20,7 @@
   height: auto;
   background-color: #FFFFFF;
   border-radius: 10px;
-  padding: 20px;
+  padding: 30px;
   text-align: center;
 }
 
@@ -30,7 +32,7 @@
 }
 
 .paragraph-section {
-  font-size: 10px;
+  font-size: 14px;
   font-family: "Roboto";
   color: #000;
   font-weight: bold;
@@ -57,4 +59,11 @@
 .button:hover {
   background: linear-gradient(to right, #5b3df1, #5b3df1);
   cursor: pointer;
+}
+#result{
+  font-size: 20px;
+  color: #000;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
